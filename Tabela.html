@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de tabela</title>
+    <style>
+        th{
+            text-align: left;
+            text-transform: uppercase;
+            color: aqua;
+            background-color: burlywood;
+            font-style: inherit;
+            padding: 20px;
+        }
+        td{
+            border: 1px solid black;
+            padding: 20px;
+        }
+        table{
+            border: 1px solid black;
+            width: 75%;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Resultados dos métodos de detecção estudados.</caption>
+        <tr>
+            <th>métodos</th>
+            <th colspan="2">Resultados</th>
+        </tr>
+        <tr>
+            <td rowspan="2">M1</td>
+            <td>10</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td rowspan="2">M2</td>
+            <td>105</td>
+            <td>201</td>
+        </tr>
+        <tr>
+            <td>97</td>
+            <td>200</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
